@@ -1,0 +1,523 @@
+[
+  {
+    "slug": "opere-pubbliche",
+    "name": "Opere Pubbliche",
+    "img": "",
+    "projects": [
+      {
+        "slug": "caserma-berardi",
+        "category": "opere-pubbliche",
+        "name": "Caserma Berardi",
+        "about": "Recupero funzionale immobili ex Caserma Berardi",
+        "client": "Ministero delle infrastrutture e dei trasporti",
+        "description": "Verifica di vulnerabilità di parte degli immobili adibiti alla Caserma Berardi, con successiva demo-ricostruzione del nuovo edificio con locali adibiti alla scuola Liceo Scientifico “F. Masci” con palestra adiacente.",
+        "job": "Progettista delle strutture",
+        "site": "Chieti",
+        "year": "2024",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "obelisco-l-aquila",
+        "category": "opere-pubbliche",
+        "name": "Obelisco in Piazza della Memoria, L'Aquila",
+        "about": "Realizzazione parco della memoria per le vittime del sisma 2009",
+        "client": "Comune di L’Aquila",
+        "description": "Progettazione per la realizzazione di una fontana costituita da un basamento e muri di contenimento realizzati in calcestruzzo armato, al cui interno è presente un obelisco in acciaio. Inoltre per l’alimentazione della fontana è stata realizzata una vasca ipogea in c.a. completamente interrata per collocare le pompe necessarie.",
+        "job": "Consulente al Calcolo Strutturale e Relazione Elaborati di Progetto",
+        "site": "L’Aquila",
+        "year": "2021",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "scuola-elementare-d-annunzio",
+        "category": "opere-pubbliche",
+        "name": "Scuola Elementare D'Annunzio, Francavilla al mare",
+        "about": "Verifica di vulnerabilità e miglioramento sismico delle strutture",
+        "client": "Comune di Francavilla al Mare",
+        "description": "Valutazione del livello di sicurezza sismico del fabbricato al fine di individuare gli interventi più opportuni per determinare un miglioramento/adeguamento sismico dell’edificio scolastico.",
+        "job": "Calcolatore",
+        "site": "Francavilla al mare",
+        "year": "2014",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "opere-commerciali",
+    "name": "Opere Commerciali",
+    "img": "",
+    "projects": [
+      {
+        "slug": "grand-hotel-radisson-milano",
+        "category": "opere-commerciali",
+        "name": "Grand Hotel Radisson - Milano",
+        "about": "Collaudo statico per interventi locali atti alla conversione di immobile da terziario direzionale a terziario ricettivo.",
+        "client": "Touring Hotel Srl",
+        "description": "E' stata effettuata opera di vigilanza sul processo costruttivo fino all'ultimazione dei lavori strutturali. Il collaudo in oggetto riguarda esclusivamente gli interventi locali previsti dal progetto e dopo aver riscontrato la buona esecuzione delle opere e il buono stato di conservazione delle stesse viene rilasciato il Certificato di Collaudo.",
+        "job": "Collaudatore",
+        "site": "Corso Italia, Milano",
+        "year": "2021",
+        "picture": "/assets/images/projects/grand-hotel-radisson-milano/001.1080w.jpg",
+        "slides": [
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/001",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/002",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/003",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/004",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/005",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/006",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/007",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/008",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/009",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/010",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/011",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/012",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/013",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/014",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/015",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/016",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/017",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/018",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/019",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/020",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          },
+          {
+            "asset": "/assets/images/projects/grand-hotel-radisson-milano/021",
+            "width": "3840",
+            "height": "2160",
+            "title": "Radisson Collection Hotel Milano. Collaudo"
+          }
+        ]
+      },
+      {
+        "slug": "clinica-pierangeli-pescara",
+        "category": "opere-commerciali",
+        "name": "Clinica Pierangeli - Pescara",
+        "about": "Adeguamento sismico del corpo A - Clinica Pierangeli.",
+        "client": "Synergo ",
+        "description": "Il corpo di fabbrica centrale viene ampliato mediante la sopraelevazione di un piano. Contestualmente la quasi totalità delle strutture portanti viene adeguata alle nuove condizioni lavoro.",
+        "job": "Assistente alla direzione dei lavori",
+        "site": "Pescara",
+        "year": "In corso",
+        "picture": "/assets/images/projects/clinica-pierangeli/001.1080w.jpg",
+        "slides": [
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/001",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/002",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/003",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/004",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/005",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/006",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/007",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/008",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/009",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/010",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          },
+          {
+            "asset": "/assets/images/projects/clinica-pierangeli/011",
+            "width": "3840",
+            "height": "2160",
+            "title": "Clinica Pierangeli"
+          }
+        ]
+      },
+      {
+        "slug": "brioni-spa",
+        "category": "opere-commerciali",
+        "name": "Azienda Brioni",
+        "about": "Costruzione di nuovi padiglioni A e B.",
+        "client": "Brioni Roman Style  S.P.A ",
+        "description": "Intervento di ricostruzione parziale della porzione dello  stabilimento  Brioni  Roman  Style con realizzazione di due padiglioni indipendenti composti  da  2 piani. La struttura in cemento armato è caratterizzata da fondazioni profonde di tipo pali e struttura intelaiata del tipo travi - pilastri.",
+        "job": "Progettista delle strutture e direttore dei lavori",
+        "site": "Penne (Pe)",
+        "year": "2016-2017",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "fattoria-toccaferro",
+        "category": "opere-commerciali",
+        "name": "Fattoria Toccaferro",
+        "about": "Progettista delle strutture e direttore dei lavori.",
+        "client": "Aida  S.R.L. ",
+        "description": "Progettazione e realizzazione di un corpo di collegamento in elevazione tra i due fabbricati dell’hotel con adiacente vano ascensore. La struttura è realizzata in acciaio ed è caratterizzata da una fondazione di tipo indiretta con pali di cemento armato.",
+        "job": "Progettista delle strutture e direttore dei lavori",
+        "site": "Pescara",
+        "year": "2024",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "cantina-marramiero",
+        "category": "opere-commerciali",
+        "name": "Cantina Marramiero",
+        "about": "Vulnerabilità sismica e sistemazione esterna per realizzazione di pergolato.",
+        "client": "Azienda Marramiero s.r.l.",
+        "description": "E’ stata condotto uno studio di vulnerabilità sismica dell’edificio aziendale Marramiero. In seguito è stato  realizzato di un pergolato con struttura portante in acciaio Cor-Ten, fondata su basamento in c.a.  L'intervento è completamento con reti e pannelli di acciaio Cor-Ten di riempimento tra gli elementi della struttura principale.",
+        "job": "Progettista delle strutture e direttore dei lavori.",
+        "site": "Rosciano (Pe)",
+        "year": "2017",
+        "picture": "/assets/images/projects/cantina-marramiero/001.1080w.jpg",
+        "slides": [
+          {
+            "asset": "/assets/images/projects/cantina-marramiero/001",
+            "width": "3120",
+            "height": "2160",
+            "title": "Cantina Marramiero"
+          },
+          {
+            "asset": "/assets/images/projects/cantina-marramiero/002",
+            "width": "3120",
+            "height": "2160",
+            "title": "Cantina Marramiero"
+          },
+          {
+            "asset": "/assets/images/projects/cantina-marramiero/003",
+            "width": "3120",
+            "height": "2160",
+            "title": "Cantina Marramiero"
+          },
+          {
+            "asset": "/assets/images/projects/cantina-marramiero/004",
+            "width": "3120",
+            "height": "2160",
+            "title": "Cantina Marramiero"
+          }
+        ]
+      },
+      {
+        "slug": "hotel-punt-dell-est",
+        "category": "opere-commerciali",
+        "name": "Hotel Punta dell'Est",
+        "about": "lavori di ristrutturazione per sopraelevazione del corpo di collegamento dei due fabbricati principali dell’albergo “Punta dell’est”.",
+        "client": "Albergo Punta dell'Est S.A.S.",
+        "description": "Progettazione e realizzazione di un corpo di collegamento in elevazione tra i due fabbricati dell’hotel con adiacente vano ascensore. La struttura è realizzata in acciaio ed è caratterizzata da una fondazione di tipo indiretta con pali di cemento armato. ",
+        "job": "Progettista delle strutture e direttore dei lavori",
+        "site": "Francavilla al Mare (Ch)",
+        "year": "2024",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "opere-private",
+    "name": "Opere Private",
+    "img": "",
+    "projects": [
+      {
+        "slug": "hotel-punt-dell-est",
+        "category": "opere-commerciali",
+        "name": "Hotel Punta dell'Est",
+        "about": "lavori di ristrutturazione per sopraelevazione del corpo di collegamento dei due fabbricati principali dell’albergo “Punta dell’est”.",
+        "client": "Albergo Punta dell'Est S.A.S.",
+        "description": "Progettazione e realizzazione di un corpo di collegamento in elevazione tra i due fabbricati dell’hotel con adiacente vano ascensore. La struttura è realizzata in acciaio ed è caratterizzata da una fondazione di tipo indiretta con pali di cemento armato. ",
+        "job": "Progettista delle strutture e direttore dei lavori",
+        "site": "Francavilla al Mare (Ch)",
+        "year": "2024",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "infrastrutture",
+    "name": "Infrastrutture",
+    "img": "",
+    "projects": [
+      {
+        "slug": "piazzale-interporto",
+        "category": "infrastrutture",
+        "name": "Piazzale Interporto",
+        "about": "Potenziamento rete logistica e Hub interportuale",
+        "client": "Zes Abruzzo",
+        "description": "Potenziamento di una infrastruttura esistente con primo intervento di adeguamento funzionale di infrastruttura esistente, attraverso realizzazione di varie infrastrutture, di consolidamento del terreno, locali servizi e opere accessorie in cemento armato e carpenteria metallica.",
+        "job": "Calcoli strutturali e redazione elaborati di deposito in collaborazione con PROGER Spa",
+        "site": "Manoppello (Ch)",
+        "state": "Completato",
+        "year": "2024",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "pista-ciclabile-montesilvano",
+        "category": "infrastrutture",
+        "name": "Pista Ciclabile Montesilvano",
+        "about": "",
+        "client": "",
+        "description": "",
+        "job": "",
+        "site": "Montesilvano (Pe)",
+        "state": "",
+        "year": "",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "fiume-alento-marciapiede",
+        "category": "infrastrutture",
+        "name": "Fiume Alento - Ampliamento Marciapiede",
+        "about": "",
+        "client": "",
+        "description": "",
+        "job": "",
+        "site": "",
+        "state": "",
+        "year": "",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "opere-private",
+    "name": "Opere Private - Residenziale",
+    "img": "",
+    "projects": [
+      {
+        "slug": "villa-francavilla-al-mare",
+        "category": "opere-private",
+        "name": "Nuova Costruzione",
+        "about": "Progetto e costruzione di un nuovo fabbricato residenziale.",
+        "client": "Privato",
+        "description": "Il progetto consiste nella costruzione di un edifico residenziale in cemento armato costituito da un piano seminterrato adibito ad autorimessa e due piani fuori terra. Inoltre sono state realizzate una piscina antistante l’edificio e una dependance. ",
+        "job": "Progettista delle strutture e direttore dei lavori",
+        "site": "Francavilla al Mare (Ch)",
+        "state": "Completato",
+        "year": "2014",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "zerotower-palazzo-via-caboto",
+        "category": "opere-private",
+        "name": "Nuova Costruzione",
+        "about": "Realizzazione di un nuovo fabbricato residenziale",
+        "client": "Società Italiana Immobili S.r.l.",
+        "description": "Intervento di demo-ricostruzione con realizzazione di un edificio di 10 piani con piscina all’ultimo piano. La struttura in cemento armato è caratterizzata da fondazioni profonde di tipo pali e struttura intelaiata del tipo travi - pilastri.",
+        "job": "Progettista delle strutture",
+        "site": "Pescara",
+        "state": "Completato",
+        "year": "2022",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "ecosisma-bonus",
+    "name": "Ecosisma Bonus - Opere Private SuperBonus 110%",
+    "img": "",
+    "projects": [
+      {
+        "slug": "condominio-mazzini",
+        "category": "ecosisma-bonus",
+        "name": "Condominio Mazzini",
+        "about": "Manutenzione straordinaria, riduzione del rischio sismico ed efficientamento energetico. ",
+        "client": "Condominio Via Mazzini",
+        "description": "Intervento di riqualificazione sismica ed energetica con abbattimento di barriere architettoniche e manutenzione straordinaria di un fabbricato principalmente ad uso residenziale, con innalzamento delle prestazioni energetiche (salto maggiore di 2 classi) e riduzione del rischio sismico.",
+        "job": "Progettista architettonico, progettista delle strutture e direttore dei lavori.",
+        "site": "Pescara",
+        "state": "Completato",
+        "year": "2022",
+        "picture": "",
+        "slides": []
+      },
+      {
+        "slug": "condominio-contrada-bardella",
+        "category": "ecosisma-bonus",
+        "name": "Miglioramento sismico di un fabbricato sito a Ortona",
+        "about": "Progettista architettonico, progettista delle strutture e direttore dei lavori.",
+        "client": "Condominio Bardella",
+        "description": "Interventi di manutenzione straordianria finalizzati alla riduzione del rischio sismico e all’efficientamento energetico di un edificio di civile abitazione sito in contrada bardella ortona, usufruendo degli incentivi fiscali di cui alla normativa vigente.",
+        "job": "Progettista architettonico, progettista delle strutture e direttore dei lavori.",
+        "site": "Ortona (Ch)",
+        "state": "Completato",
+        "year": "2023",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "antisismica-cratere-sisma",
+    "name": "Antisismica e Cratere Sisma 2009-2016",
+    "img": "",
+    "projects": [
+      {
+        "slug": "palazzo-benadduci",
+        "category": "antisismica-cratere-sisma",
+        "name": "Palazzo Benadduci",
+        "about": "",
+        "client": "",
+        "description": "",
+        "job": "",
+        "site": "",
+        "state": "",
+        "year": "",
+        "picture": "",
+        "slides": []
+      }
+    ]
+  },
+  {
+    "slug": "impianti-fotovoltaici",
+    "name": "Impianti Fotovoltaici",
+    "img": "",
+    "projects": []
+  },
+  {
+    "slug": "tribunale",
+    "name": "Tribunale",
+    "projects": []
+  }
+]

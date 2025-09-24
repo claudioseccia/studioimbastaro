@@ -1,0 +1,167 @@
+import { Link /* , useParams */ } from "react-router-dom";
+import { StateContext } from "@/Components/StateProvider";
+import { useContext } from "react";
+import styled from "styled-components";
+import ParallaxImage from "../Components/ParallaxImage/ParallaxImage";
+import { useEffect } from "react";
+// import data from "../assets/data.json";
+export const ProjectsSectionContainer = styled.div`
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  @media screen and (max-width: 700px) {
+    width: 90%;
+  }
+`;
+
+export const ProjectCategoriesGrid = styled.div`
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  @media screen and (max-width: 700px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+export const ProjectCategory = styled.div`
+  // background: #606060;
+  // color: #fff;
+  padding: 0;
+  text-transform: uppercase;
+  // border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 5rem;
+  @media screen and (max-width: 700px) {
+    padding: 1rem;
+    border-left: 2px solid #000;
+  }
+  a {
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+
+    left: 0;
+    bottom: -9px;
+    width: 0;
+    background: #000;
+    transition: width 0.2s;
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+  // a,
+  // a:link,
+  // a:visited {
+  //   position: absolute;
+  //   inset: 0;
+  //   display: block;
+
+  //   color: inherit;
+  //   padding: 1rem 0;
+  // }
+  // a:hover {
+  //   color: #999;
+  //   font-weight: bold;
+  // }
+`;
+
+// export const ProjectCategory = styled.div`
+//   background: #606060;
+//   color: #fff;
+//   padding: 4rem 1rem;
+//   border-radius: 10px;
+//   font-size: 1.2rem;
+//   cursor: pointer;
+//   transition: all 0.3s ease-in-out;
+//   position: relative;
+//   display: inline-block;
+
+//   a,
+//   a:link,
+//   a:visited {
+//     position: absolute;
+//     inset: 0;
+//     display: block;
+//     text-decoration: none;
+//     color: inherit;
+//     padding: 1rem 0;
+//   }
+//   a:hover {
+//     color: #ddd;
+//   }
+// `;
+
+export const Title = styled.h2`
+  font-size: 2.2rem;
+
+  text-align: left;
+  @media screen and (max-width: 700px) {
+    margin-top: 30%;
+    font-size: 1.8rem;
+  }
+`;
+export const SubTitle = styled.h3`
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  @media screen and (max-width: 700px) {
+    font-size: 1.3rem;
+  }
+`;
+const Projects = () => {
+  const REACT_APP_API_URL = import.meta.env.VITE_REACT_APP_API_URL;
+  useEffect(() => {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
+  }, []); // The empty array ensures this effect runs only once on mount.
+
+  const { projectsData } = useContext(StateContext);
+  // const params = useParams();
+  // console.log("PROJECTS PAGE");
+  // console.log("params", params);
+  // console.log("data", data);
+
+  return (
+    <>
+      <ProjectsSectionContainer>
+        <Title>Progetti</Title>
+        <SubTitle>Sfoglia categorie progetti</SubTitle>
+        <ProjectCategoriesGrid>
+          {projectsData &&
+            projectsData.map((item, id) => (
+              <ProjectCategory key={id}>
+                <Link
+                  to={{
+                    pathname: `../progetti/${item.slug}`,
+                    state: item,
+                  }}
+                >
+                  {item.name}
+                </Link>
+              </ProjectCategory>
+            ))}
+        </ProjectCategoriesGrid>
+      </ProjectsSectionContainer>
+      <ParallaxImage
+        src={`${REACT_APP_API_URL}/assets/images/projects/grand-hotel-radisson-milano/011.1920w.jpg`}
+        alt="Studio Imbastaro"
+      ></ParallaxImage>
+    </>
+  );
+};
+
+export default Projects;

@@ -1,0 +1,80 @@
+export const facts = [
+  {
+    title: "Studio di Ingegneria Imbastaro",
+    text: [
+      "L’Ing. Pierfranco Imbastaro, dopo aver conseguito all’età di 24 anni la laurea in Ingegneria (Vecchio Ordinamento) presso la facoltà d’ingegneria del Politecnico di Milano, inizia la propria carriera presso aziende leader nella progettazione e realizzazione di grandi opere (Edison group Milano – Alstom power – Baden - CH).",
+      "In tali ambiti, costruisce un importante bagaglio di esperienza tecnica e gestionale, partecipando alla formazione, esecuzione e completamento di cantieri per la realizzazione di centrali turbogas, ricoprendo già all’ età di 27 anni ruoli manageriali (Turnkey Manager), supportato da una continua formazione.",
+      "Il nostro studio gode da diversi anni della collaborazione in team di professionisti capaci ed esperti che svolgono le mansioni di ingegneri e geometri.",
+    ],
+    img: "foto2.jpg",
+    //img: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    imgLeft: true,
+    internalLink: "team",
+    // link: 'Visita il nostro studio.',
+  },
+  {
+    title: "La formazione.",
+    text: [
+      "La formazione è un punto cardine e costante della sua professione, alla ricerca di una continua crescita culturale e professionale, conseguendo titoli e frequentando Master di secondo livello specialistici sull’antisismica (Facoltà d’ingegneria dell’Aquila) oltre che svariati corsi di formazione avanzati.",
+      "Nel 2009 decide di mettersi in proprio svolgendo la libera professione nell’ambito della progettazione e direzione dei lavori strutturale manufatti e infrastrutture destinati all’uso civile, passione ereditata dal padre la cui esperienza pluridecennale e specialistica è ampiamente riconosciuta.",
+    ],
+    img: "foto5.jpg",
+    //img: "https://images.unsplash.com/photo-1599585612283-b15074b932e0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imgLeft: false,
+    internalLink: "",
+    // link: 'Incontra il nostro Team.',
+  },
+
+  {
+    title: "Il team.",
+    text: [
+      "Il nostro studio gode da diversi anni della collaborazione in team di professionisti capaci ed esperti che svolgono le mansioni di ingegneri e geometri.",
+    ],
+    img: "foto1.jpg",
+    // img: 'https://images.unsplash.com/photo-1423847061346-e91142431473?q=80&w=3274&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    imgLeft: true,
+    // link: 'Vedi i nostri progetti',
+  } /* */,
+];
+
+export const clients = [
+  {
+    title: "I Clienti.",
+    text: [
+      "Incrementa, fidelizzando sin da subito, il proprio team di collaboratori, strumentazioni e software, necessari per seguire la crescita di commesse e clienti, che gli permette di creare in questi anni un portafoglio clienti importante e di rilievo tra cui alcuni nomi: ",
+    ],
+    clients: [
+      "ALMACIS",
+      "BRIONI ROMAN STYLE",
+      "BUTANGAS",
+      "CANTINA MARRAMIERO",
+      "CIRCET",
+      "CRUCIANELLI",
+      "DI VINCENZO COSTRUZIONI",
+      "GENERALI ASSICIRAZIONI",
+      "LT s.r.l",
+      "MONDIALCAR",
+      "MORELLI GROUP",
+      "IL PRISMA",
+      "PROGER SPA",
+      "SYNERGO SPA",
+      "SOC. VIGNE NUOVE",
+      "TECHINP",
+      "RSI",
+      "POLITECNICO DI MILANO",
+      "HOTEL TOURING MILANO",
+      "PARCO NAZIONALE DELLA MAJELLA",
+      "TEXOIL",
+      "ABRUZZO VARI COMUNI",
+      "PROVINCE VARIE E REGIONE ABRUZZO",
+      "MINISTERI",
+      "TRIBUNALE DI PESCARA",
+      "TRIBUNALE DI SULMONA",
+    ],
+    //img: "https://images.unsplash.com/photo-1423847061346-e91142431473?q=80&w=3274&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "foto3.jpg",
+    imgLeft: true,
+    internalLink: "clienti",
+    // link: 'Vedi i nostri progetti',
+  },
+];
