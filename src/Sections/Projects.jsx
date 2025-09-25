@@ -39,42 +39,38 @@ export const ProjectCategory = styled.div`
   text-align: left;
   padding: 1rem;
   background: #eee;
+  border-radius: 1rem;
   &:hover {
     background: #ddd;
   }
+  color: #000;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1rem;
 
   @media screen and (max-width: 700px) {
-    a {
-      font-size: 0.8rem;
-    }
+    font-size: 0.8rem;
   }
-
-  a {
-    color: #000;
-    font-size: 1.2rem;
-    cursor: pointer;
-    position: relative;
-    padding-left: 1rem;
-    @media screen and (max-width: 700px) {
-      font-size: 1rem;
-    }
+  svg {
+    margin-right: 1rem;
   }
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   height: 3px;
 
-  a::after {
-    content: "";
-    position: absolute;
-    height: 3px;
+  //   left: 1rem;
 
-    left: 0;
-    bottom: -9px;
-    width: 0;
-    background: #000;
-    transition: width 0.2s;
-  }
+  //   bottom: 10px;
+  //   width: 0;
+  //   background: #ccc;
+  //   transition: width 0.5s;
+  // }
 
-  a:hover::after {
-    width: 100%;
-  }
+  // &:hover::after {
+  //   width: 98%;
+  // }
 `;
 
 // export const ProjectCategory = styled.div`
@@ -134,16 +130,8 @@ const Projects = () => {
   // console.log("PROJECTS PAGE");
   // console.log("params", params);
   // console.log("data", data);
-
-  return (
-    <>
-      <ProjectsSectionContainer>
-        <Title>Progetti</Title>
-        <SubTitle>Sfoglia categorie progetti</SubTitle>
-        <ProjectCategoriesGrid>
-          {projectsData &&
-            projectsData.map((item, id) => (
-              <ProjectCategory key={id}>
+  {
+    /* <ProjectCategory key={id}>
                 <AiOutlineArrowRight />
                 <Link
                   to={{
@@ -153,6 +141,26 @@ const Projects = () => {
                 >
                   {item.name}
                 </Link>
+              </ProjectCategory> */
+  }
+  return (
+    <>
+      <ProjectsSectionContainer>
+        <Title>Progetti</Title>
+        <SubTitle>Sfoglia categorie progetti</SubTitle>
+        <ProjectCategoriesGrid>
+          {projectsData &&
+            projectsData.map((item) => (
+              <ProjectCategory
+                key={item.slug}
+                as={Link}
+                to={{
+                  pathname: `../progetti/${item.slug}`,
+                  state: item,
+                }}
+              >
+                <AiOutlineArrowRight />
+                {item.name}
               </ProjectCategory>
             ))}
         </ProjectCategoriesGrid>
