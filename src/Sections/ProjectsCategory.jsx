@@ -2,8 +2,9 @@ import { /* useLocation, */ useParams, Link } from "react-router-dom";
 import { StateContext } from "@/Components/StateProvider";
 import { useContext } from "react";
 import styled from "styled-components";
-import { StyledP } from "../Components/InfoSection/InfoSectionElements";
+// import { StyledP } from "../Components/InfoSection/InfoSectionElements";
 import { useEffect } from "react";
+import { AiOutlineArrowRight } from "react-icons/ai";
 //import data from "../assets/data.json";
 
 export const ProjectsSectionContainer = styled.div`
@@ -15,9 +16,27 @@ export const ProjectsSectionContainer = styled.div`
 
   @media screen and (max-width: 700px) {
     width: 90%;
+    margin-top: 10%;
   }
 `;
-
+export const ProjectTitleContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  span {
+    a {
+      svg {
+        height: 14px;
+      }
+      color: #000;
+    }
+  }
+`;
 export const GridProjectsContainer = styled.div`
   display: grid;
   padding-bottom: 10%;
@@ -46,7 +65,6 @@ const NavLink = styled(Link)`
   margin: 0;
   color: #888;
   text-decoration: none;
-  border-bottom: 1px solid #e0e0e0;
 `;
 
 export const Title = styled.h2`
@@ -61,15 +79,16 @@ export const Title = styled.h2`
 `;
 
 export const ProjectTitle = styled.h3`
-  font-size: 1.2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   color: #333;
   text-transform: uppercase;
-  text-align: center;
+  // text-align: center;
   background: #eee;
   @media screen and (max-width: 700px) {
+    font-size: 0.8rem;
     height: 5rem;
-    padding: 0.2rem;
-    font-size: 1rem;
+    padding: 0.5rem;
     text-align: left;
   }
 `;
@@ -99,7 +118,19 @@ const ProjectsCategory = () => {
     <ProjectsSectionContainer>
       {projectsDataCategory ? (
         <>
-          <Title>{projectsDataCategory.name}</Title>
+          <ProjectTitleContainer>
+            <Title>{projectsDataCategory.name}</Title>
+            <span>
+              <Link
+                to={{
+                  pathname: `../progetti`,
+                }}
+              >
+                <AiOutlineArrowRight />
+                Visualizza tutte le categorie
+              </Link>
+            </span>
+          </ProjectTitleContainer>
           <GridProjectsContainer>
             {projectsDataCategory?.projects.map((item, id) => (
               <ProjectElement key={id}>
@@ -119,6 +150,7 @@ const ProjectsCategory = () => {
               </ProjectElement>
             ))}
           </GridProjectsContainer>
+          {/* 
           <StyledP>
             <Link
               to={{
@@ -127,7 +159,8 @@ const ProjectsCategory = () => {
             >
               torna ai progetti
             </Link>
-          </StyledP>
+          </StyledP> 
+          */}
         </>
       ) : (
         <Title>Nessuna progetto presente nella categoria</Title>

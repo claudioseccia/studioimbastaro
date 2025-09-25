@@ -4,48 +4,60 @@ import { useContext } from "react";
 import styled from "styled-components";
 import ParallaxImage from "../Components/ParallaxImage/ParallaxImage";
 import { useEffect } from "react";
+import { AiOutlineArrowRight } from "react-icons/ai";
 // import data from "../assets/data.json";
 export const ProjectsSectionContainer = styled.div`
   width: 90%;
   margin: auto;
   margin-top: 10%;
   position: relative;
+  text-align: left;
+
   @media screen and (max-width: 700px) {
     width: 90%;
+    margin-top: 30%;
   }
 `;
 
 export const ProjectCategoriesGrid = styled.div`
   margin: 3rem 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   @media screen and (max-width: 700px) {
     grid-template-columns: repeat(1, 1fr);
   }
 `;
 export const ProjectCategory = styled.div`
-  // background: #606060;
-  // color: #fff;
   padding: 0;
   text-transform: uppercase;
-  // border-radius: 10px;
-  font-size: 1rem;
+  // font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   position: relative;
   display: inline-block;
   text-align: left;
-  padding-bottom: 5rem;
-  @media screen and (max-width: 700px) {
-    padding: 1rem;
-    border-left: 2px solid #000;
+  padding: 1rem;
+  background: #eee;
+  &:hover {
+    background: #ddd;
   }
+
+  @media screen and (max-width: 700px) {
+    a {
+      font-size: 0.8rem;
+    }
+  }
+
   a {
     color: #000;
     font-size: 1.2rem;
     cursor: pointer;
     position: relative;
+    padding-left: 1rem;
+    @media screen and (max-width: 700px) {
+      font-size: 1rem;
+    }
   }
 
   a::after {
@@ -63,20 +75,6 @@ export const ProjectCategory = styled.div`
   a:hover::after {
     width: 100%;
   }
-  // a,
-  // a:link,
-  // a:visited {
-  //   position: absolute;
-  //   inset: 0;
-  //   display: block;
-
-  //   color: inherit;
-  //   padding: 1rem 0;
-  // }
-  // a:hover {
-  //   color: #999;
-  //   font-weight: bold;
-  // }
 `;
 
 // export const ProjectCategory = styled.div`
@@ -115,9 +113,11 @@ export const Title = styled.h2`
   }
 `;
 export const SubTitle = styled.h3`
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   text-align: left;
+  font-weight: normal;
+  color: #999;
   @media screen and (max-width: 700px) {
     font-size: 1.3rem;
   }
@@ -144,6 +144,7 @@ const Projects = () => {
           {projectsData &&
             projectsData.map((item, id) => (
               <ProjectCategory key={id}>
+                <AiOutlineArrowRight />
                 <Link
                   to={{
                     pathname: `../progetti/${item.slug}`,

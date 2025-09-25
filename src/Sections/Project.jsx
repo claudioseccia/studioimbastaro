@@ -15,8 +15,10 @@ export const ProjectsSectionContainer = styled.div`
   margin-top: 10%;
   position: relative;
   text-align: left;
+
   @media screen and (max-width: 700px) {
     width: 90%;
+    margin-top: 30%;
   }
 `;
 
