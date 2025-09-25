@@ -39,7 +39,7 @@ export const ProjectCategory = styled.div`
   text-align: left;
   padding: 1rem;
   background: #eee;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
   &:hover {
     background: #ddd;
   }
@@ -55,22 +55,6 @@ export const ProjectCategory = styled.div`
   svg {
     margin-right: 1rem;
   }
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   height: 3px;
-
-  //   left: 1rem;
-
-  //   bottom: 10px;
-  //   width: 0;
-  //   background: #ccc;
-  //   transition: width 0.5s;
-  // }
-
-  // &:hover::after {
-  //   width: 98%;
-  // }
 `;
 
 // export const ProjectCategory = styled.div`

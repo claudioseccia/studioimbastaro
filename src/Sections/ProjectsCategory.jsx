@@ -57,7 +57,8 @@ export const GridProjectsContainer = styled.div`
 
 const ProjectElement = styled.div`
   border: 1px solid #eee;
-  border-radius: 10px;
+  border-radius: 0.6rem;
+  padding: 0 0 0.6rem 0;
 `;
 
 const NavLink = styled(Link)`
@@ -83,8 +84,8 @@ export const ProjectTitle = styled.h3`
   padding: 0.5rem;
   color: #333;
   text-transform: uppercase;
-  // text-align: center;
   background: #eee;
+  border-radius: 0.6rem 0.6rem 0 0;
   @media screen and (max-width: 700px) {
     font-size: 0.8rem;
     height: 5rem;
