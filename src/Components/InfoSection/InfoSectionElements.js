@@ -6,6 +6,7 @@ export const InfoSectionContainer = styled.div`
   margin: auto;
   margin-top: 10%;
   @media screen and (max-width: 700px) {
+    margin-top: 30%;
     width: 90%;
   }
 `;

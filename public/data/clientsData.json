@@ -1,0 +1,128 @@
+[
+  {
+    "company": "Almacis",
+    "image": "almacis.png",
+    "link": "https://almacis.it"
+  },
+  {
+    "company": "Cantina Marramiero",
+    "image": "cantinamarramiero.png",
+    "link": "https://marramiero.wine"
+  },
+  {
+    "company": "Di Vincenzo Costruzioni",
+    "image": "divincenzocostruzioni.png",
+    "link": "https://dvc.it/"
+  },
+  {
+    "company": "LT Srl",
+    "image": "ltsrl.png",
+    "link": "https://ltrinnovabili.com"
+  },
+  {
+    "company": "NH Hotels",
+    "image": "nhhotels.png",
+    "link": "https://www.nh-hotels.com"
+  },
+  {
+    "company": "Proger",
+    "image": "proger.png",
+    "link": "https://www.proger.it"
+  },
+  {
+    "company": "Technip",
+    "image": "technip.png",
+    "link": "https://www.technipenergies.com"
+  },
+  {
+    "company": "Brioni",
+    "image": "brioni.png",
+    "link": "https://www.brioni.com"
+  },
+  {
+    "company": "Circet",
+    "image": "circet.png",
+    "link": "https://www.circet.com"
+  },
+  {
+    "company": "Generali",
+    "image": "generali.png",
+    "link": "https://www.generali.com"
+  },
+  {
+    "company": "Mondial Car",
+    "image": "mondialcar.png",
+    "link": "https://www.mondialcarortona.it/"
+  },
+  {
+    "company": "Parco Nazionale della Majella",
+    "image": "parconazionalemajella.png",
+    "link": "https://www.parcomajella.it"
+  },
+  { "company": "RSI", "image": "rsi.png", "link": "https://www.rsi.ch" },
+  {
+    "company": "Texoil",
+    "image": "texoil.png",
+    "link": "https://texoil.valero.com/"
+  },
+  {
+    "company": "Butangas",
+    "image": "butangas.png",
+    "link": "https://butangas.it"
+  },
+  {
+    "company": "Crucianelli",
+    "image": "crucianelli.png",
+    "link": "https://crucianelli.com"
+  },
+  {
+    "company": "Il Prisma",
+    "image": "ilprisma.png",
+    "link": "https://www.ilprisma.com"
+  },
+  {
+    "company": "Morelli Group",
+    "image": "morelligroup.png",
+    "link": "https://www.morelligroup.it"
+  },
+  {
+    "company": "Politecnico di Milano",
+    "image": "politecnicomilano.png",
+    "link": "https://www.polimi.it"
+  },
+  {
+    "company": "Sinergo",
+    "image": "sinergo.png",
+    "link": "https://sinergo.net"
+  },
+  {
+    "company": "ABRUZZO VARI COMUNI",
+    "image": "",
+    "link": ""
+  },
+  {
+    "company": "PROVINCE VARIE E REGIONE ABRUZZO",
+    "image": "",
+    "link": ""
+  },
+  {
+    "company": "VARI MINISTERI DELLA REPUBBLICA",
+    "image": "",
+    "link": ""
+  },
+  {
+    "company": "TRIBUNALE DI PESCARA",
+    "image": "",
+    "link": ""
+  },
+  {
+    "company": "TRIBUNALE DI SULMONA",
+    "image": "",
+    "link": ""
+  },
+  {
+    "company": "SOCIETA' VIGNE NUOVE",
+    "image": "",
+    "link": ""
+  }
+]

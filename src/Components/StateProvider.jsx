@@ -11,6 +11,7 @@ const StateProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [changeTitle, setChangeTitle] = useState(false);
   const [projectsData, setProjectsData] = useState(null);
+  const [clientsData, setClientsData] = useState(null);
 
   const REACT_APP_API_URL = import.meta.env.VITE_REACT_APP_API_URL;
   // const apiUrl = new URL("data/projectsData.json", REACT_APP_API_URL).href;
@@ -27,7 +28,18 @@ const StateProvider = ({ children }) => {
         const jsonData = await response.json();
         setProjectsData(jsonData);
       } catch (error) {
-        console.error("Fetch error:", error);
+        console.error("Fetch error on Projects Data:", error);
+      }
+      try {
+        const response = await fetch(
+          `${REACT_APP_API_URL}/data/clientsData.json`
+        );
+        // const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error("Network response was not ok");
+        const jsonData = await response.json();
+        setClientsData(jsonData);
+      } catch (error) {
+        console.error("Fetch error on Clients Data:", error);
       }
     };
     fetchData();
@@ -37,6 +49,7 @@ const StateProvider = ({ children }) => {
     <StateContext.Provider
       value={{
         projectsData,
+        clientsData,
         navbarOver,
         setNavbarOver,
         showCart,

@@ -43,6 +43,7 @@ export const clients = [
     text: [
       "Incrementa, fidelizzando sin da subito, il proprio team di collaboratori, strumentazioni e software, necessari per seguire la crescita di commesse e clienti, che gli permette di creare in questi anni un portafoglio clienti importante e di rilievo tra cui alcuni nomi: ",
     ],
+    text2: "Lo Studio ha inoltre lavorato con importanti realtà, quali: ",
     clients: [
       "ALMACIS",
       "BRIONI ROMAN STYLE",
